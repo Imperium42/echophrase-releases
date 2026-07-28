@@ -19,7 +19,7 @@
 ---
 
 Echophrase is a desktop dictation app that turns your speech into text in **any**
-application — fully **offline**, accelerated by your **GPU**, with multilingual
+application — fully **offline** after a one-time model download, accelerated by your **GPU**, with multilingual
 models (Whisper, Parakeet, Qwen3-ASR). Push-to-talk, no account, no cloud.
 
 > This repository holds **release artifacts only** — no source code. Signed,
@@ -47,7 +47,7 @@ Windows builds (with CUDA GPU acceleration) are distributed from
 
 | | |
 |---|---|
-| 🔒 **100% offline** | Audio is processed on-device — nothing is ever uploaded |
+| 🔒 **100% offline** | Audio is processed on-device — nothing is ever uploaded (models are a one-time download on first run) |
 | ⚡ **GPU-accelerated** | Native DirectML on Windows, Metal on macOS — nothing extra to install |
 | 🌍 **Multilingual** | Qwen3-ASR delivers strong Chinese & international accuracy |
 | 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey |

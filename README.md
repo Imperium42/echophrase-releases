@@ -48,7 +48,7 @@ Windows builds (with CUDA GPU acceleration) are distributed from
 | | |
 |---|---|
 | 🔒 **100% offline** | Audio is processed on-device — nothing is ever uploaded |
-| ⚡ **GPU-accelerated** | CUDA on Windows, Apple Silicon-optimized on macOS |
+| ⚡ **GPU-accelerated** | Native DirectML on Windows, Metal on macOS — nothing extra to install |
 | 🌍 **Multilingual** | Qwen3-ASR delivers strong Chinese & international accuracy |
 | 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey |
 | 🪶 **Featherweight** | Native Tauri + Rust — not an Electron memory hog |

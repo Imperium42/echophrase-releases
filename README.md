@@ -41,23 +41,30 @@ Requires **macOS 13.3+ (Ventura)** on **Apple Silicon** (`arm64`).
 Prefer a manual install? Grab the `.dmg` from the
 [latest release](../../releases/latest).
 
-<!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 ## 🪟 Install (Windows)
 
+Download the signed installer (`Echophrase_<version>_x64-setup.exe`) from the
+[latest release](../../releases/latest). GPU acceleration works out of the box
+via DirectML; an optional CUDA plugin for NVIDIA GPUs is available in-app.
+
+<!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 ```powershell
 winget install Imperium42.Echophrase
 ```
 -->
 
-Prefer a manual install, or want other platforms? Windows builds (with CUDA GPU
-acceleration) are also distributed from
-[echophrase.com/download](https://echophrase.com/download).
+## 🐧 Install (Linux, Alpha)
+
+Grab the [AppImage](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/appimage-x86_64?channel=beta)
+(x86_64, NVIDIA CUDA required), then `chmod +x` and run. Linux support is
+**Alpha** — see [echophrase.com/download](https://echophrase.com/download)
+for requirements and known limitations.
 
 ## ✨ Why Echophrase?
 
 | | |
 |---|---|
-| 🔒 **100% offline** | Audio is processed on-device — nothing is ever uploaded (models are a one-time download on first run) |
+| 🔒 **100% offline transcription** | Your voice is processed on-device — recordings are never uploaded (models are a one-time download on first run). Optional online features (account, premium) and anonymous telemetry can be turned off |
 | ⚡ **GPU-accelerated** | Native DirectML on Windows, Metal on macOS — nothing extra to install |
 | 🌍 **Multilingual** | Qwen3-ASR delivers strong Chinese & international accuracy |
 | 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey |

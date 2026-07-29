@@ -67,6 +67,7 @@ for requirements and known limitations.
 | 🔒 **Unlimited Offline Transcriptions** | Your voice is processed on-device — recordings are never uploaded (models are a one-time download on first run). Optional online features (account, cloud sync, anonymous telemetry) can be turned off |
 | ⚡ **GPU-accelerated** | Native DirectML on Windows, Metal on macOS — nothing extra to install |
 | 🌍 **Multilingual** | Pick the model that fits: Whisper, Parakeet, or Qwen3-ASR — from fast English-first dictation to strong Chinese & international accuracy |
+| ✍️ **Grammar cleanup** | An optional post-transcription transform model polishes grammar and punctuation, so your dictation reads the way you meant it |
 | 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey |
 | 🪶 **Featherweight** | Native Tauri + Rust — not an Electron memory hog |
 

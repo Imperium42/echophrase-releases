@@ -21,7 +21,7 @@
 
 ---
 
-Echophrase is a desktop dictation app that turns your speech into text in **any**
+[Echophrase](https://echophrase.com) is a desktop dictation app that turns your speech into text in **any**
 application — fully **offline** after a one-time model download, accelerated by your **GPU**, with multilingual
 models (Whisper, Parakeet, Qwen3-ASR). Push-to-talk, no account, no cloud.
 

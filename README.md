@@ -11,7 +11,9 @@
 [![Latest release](https://img.shields.io/github/v/release/imperium42/echophrase-releases?include_prereleases&label=release&color=22d3ee)](../../releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/imperium42/echophrase-releases/total?color=a855f7)](../../releases)
 [![Homebrew](https://img.shields.io/badge/homebrew-imperium42%2Ftap-f9d094?logo=homebrew&logoColor=white)](https://github.com/imperium42/homebrew-tap)
+<!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 [![winget](https://img.shields.io/badge/winget-Imperium42.Echophrase-0078d4?logo=windows&logoColor=white)](https://winstall.app/apps/Imperium42.Echophrase)
+-->
 [![Website](https://img.shields.io/badge/echophrase.com-visit-22d3ee)](https://echophrase.com)
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/XVGXRzq)
 
@@ -39,11 +41,13 @@ Requires **macOS 13.3+ (Ventura)** on **Apple Silicon** (`arm64`).
 Prefer a manual install? Grab the `.dmg` from the
 [latest release](../../releases/latest).
 
+<!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 ## 🪟 Install (Windows)
 
 ```powershell
 winget install Imperium42.Echophrase
 ```
+-->
 
 Prefer a manual install, or want other platforms? Windows builds (with CUDA GPU
 acceleration) are also distributed from

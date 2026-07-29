@@ -64,7 +64,7 @@ for requirements and known limitations.
 
 | | |
 |---|---|
-| 🔒 **Offline transcriptions** | Your voice is processed on-device — recordings are never uploaded (models are a one-time download on first run). Optional online features (account, premium) and anonymous telemetry can be turned off |
+| 🔒 **Unlimited Offline Transcriptions** | Your voice is processed on-device — recordings are never uploaded (models are a one-time download on first run). Optional online features (account, premium) and anonymous telemetry can be turned off |
 | ⚡ **GPU-accelerated** | Native DirectML on Windows, Metal on macOS — nothing extra to install |
 | 🌍 **Multilingual** | Qwen3-ASR delivers strong Chinese & international accuracy |
 | 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey |

@@ -76,7 +76,7 @@ for requirements and known limitations.
 - **Website & downloads:** [echophrase.com](https://echophrase.com)
 - **Docs:** [docs.echophrase.com](https://docs.echophrase.com)
 - **Community:** [Discord](https://discord.com/invite/XVGXRzq)
-- **Source:** private repository — see the website for product info
+- **Source:** private repository — see [echophrase.com](https://echophrase.com) for product info
 
 ---
 

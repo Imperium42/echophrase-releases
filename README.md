@@ -9,7 +9,6 @@
 **Your voice never leaves your computer.**
 
 [![Latest release](https://img.shields.io/github/v/release/imperium42/echophrase-releases?include_prereleases&label=release&color=22d3ee)](../../releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/imperium42/echophrase-releases/total?color=a855f7)](../../releases)
 [![Homebrew](https://img.shields.io/badge/homebrew-imperium42%2Ftap-f9d094?logo=homebrew&logoColor=white)](https://github.com/imperium42/homebrew-tap)
 <!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 [![winget](https://img.shields.io/badge/winget-Imperium42.Echophrase-0078d4?logo=windows&logoColor=white)](https://winstall.app/apps/Imperium42.Echophrase)

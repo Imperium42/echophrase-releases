@@ -22,7 +22,7 @@
 
 [Echophrase](https://echophrase.com) is a desktop dictation app that turns your speech into text in **any**
 application — fully **offline** after a one-time model download, accelerated by your **GPU**, with multilingual
-models (Whisper, Parakeet, Qwen3-ASR). Push-to-talk, no account, no cloud.
+models (Whisper, Parakeet, Qwen3-ASR). Push-to-talk, no account, no cloud - a polished, featherweight native app (Tauri + Rust, not Electron).
 
 > This repository holds **release artifacts only** — no source code. Signed,
 > notarized macOS `.dmg` builds are published as
@@ -54,7 +54,7 @@ winget install Imperium42.Echophrase
 
 ## 🐧 Install (Linux, Alpha)
 
-Grab the [AppImage](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/appimage-x86_64?channel=beta)
+Grab the [AppImage](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/appimage-x86_64)
 (x86_64, NVIDIA CUDA required), then `chmod +x` and run. Linux support is
 **Alpha** — see [echophrase.com/download](https://echophrase.com/download)
 for requirements and known limitations.

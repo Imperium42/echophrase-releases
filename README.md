@@ -55,8 +55,17 @@ winget install Imperium42.Echophrase
 ## 🐧 Install (Linux, Alpha)
 
 Grab the [AppImage](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/appimage-x86_64)
-(x86_64, NVIDIA CUDA required), then `chmod +x` and run. Linux support is
-**Alpha** — see [echophrase.com/download](https://echophrase.com/download)
+(x86_64, NVIDIA CUDA required), then `chmod +x` and run.
+
+On Debian/Ubuntu you can install the
+[`.deb` package](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/debian-x86_64)
+instead:
+
+```bash
+sudo dpkg -i echophrase.deb
+```
+
+Linux support is **Alpha** — see [echophrase.com/download](https://echophrase.com/download)
 for requirements and known limitations.
 
 ## ✨ Why Echophrase?

@@ -10,9 +10,7 @@
 
 [![Latest release](https://img.shields.io/github/v/release/imperium42/echophrase-releases?include_prereleases&label=release&color=22d3ee)](../../releases/latest)
 [![Homebrew](https://img.shields.io/badge/homebrew-imperium42%2Ftap-f9d094?logo=homebrew&logoColor=white)](https://github.com/imperium42/homebrew-tap)
-<!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 [![winget](https://img.shields.io/badge/winget-Imperium42.Echophrase-0078d4?logo=windows&logoColor=white)](https://winstall.app/apps/Imperium42.Echophrase)
--->
 [![Website](https://img.shields.io/badge/echophrase.com-visit-22d3ee)](https://echophrase.com)
 [![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/XVGXRzq)
 
@@ -46,11 +44,9 @@ Download the signed installer (`Echophrase_<version>_x64-setup.exe`) from the
 [latest release](../../releases/latest). GPU acceleration works out of the box
 via DirectML; an optional CUDA plugin for NVIDIA GPUs is available in-app.
 
-<!-- winget: re-enable once Imperium42.Echophrase clears winget-pkgs moderation
 ```powershell
 winget install Imperium42.Echophrase
 ```
--->
 
 ## 🐧 Install (Linux, Alpha)
 

@@ -12,7 +12,7 @@
 [![Homebrew](https://img.shields.io/badge/homebrew-imperium42%2Ftap-f9d094?logo=homebrew&logoColor=white)](https://github.com/imperium42/homebrew-tap)
 [![winget](https://img.shields.io/badge/winget-Imperium42.Echophrase-0078d4?logo=windows&logoColor=white)](https://winstall.app/apps/Imperium42.Echophrase)
 [![Website](https://img.shields.io/badge/echophrase.com-visit-22d3ee)](https://echophrase.com)
-[![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/XVGXRzq)
+[![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/Er6NUcx)
 
 </div>
 
@@ -79,7 +79,7 @@ for requirements and known limitations.
 
 - **Website & downloads:** [echophrase.com](https://echophrase.com)
 - **Docs:** [docs.echophrase.com](https://docs.echophrase.com)
-- **Community:** [Discord](https://discord.com/invite/XVGXRzq)
+- **Community:** [Discord](https://discord.com/invite/Er6NUcx)
 - **Source:** private repository — see [echophrase.com](https://echophrase.com) for product info
 
 ---

@@ -12,21 +12,22 @@
 [![Homebrew](https://img.shields.io/badge/homebrew-imperium42%2Ftap-f9d094?logo=homebrew&logoColor=white)](https://github.com/imperium42/homebrew-tap)
 [![winget](https://img.shields.io/badge/winget-Imperium42.Echophrase-0078d4?logo=windows&logoColor=white)](https://winstall.app/apps/Imperium42.Echophrase)
 [![Website](https://img.shields.io/badge/echophrase.com-visit-22d3ee)](https://echophrase.com)
-[![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/XVGXRzq)
+[![Discord](https://img.shields.io/badge/discord-join-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/Er6NUcx)
 
 </div>
 
 ---
 
-[Echophrase](https://echophrase.com) is a desktop dictation app that turns your speech into text in **any**
-application — fully **offline** after a one-time model download, accelerated by your **GPU**, with multilingual
-models (Whisper, Parakeet, Qwen3-ASR). Push-to-talk, no account, no cloud - a polished, featherweight native app (Tauri + Rust, not Electron).
+[Echophrase](https://echophrase.com) is a free, open-source (MPL-2.0) desktop dictation app that turns your
+speech into text in **any** application. It runs fully **offline** after a one-time model download, accelerated
+by your **GPU**, with local models (Parakeet-TDT, Qwen3-ASR, Parakeet Lite, plus optional T5 grammar cleanup).
+Push-to-talk, no account, no cloud, no telemetry. A native Tauri + Rust app, not Electron.
 
-> This repository holds **release artifacts only** — no source code. Signed,
-> notarized macOS `.dmg` builds are published as
-> [GitHub Releases](../../releases), tagged `v<version>` to match the app.
-> It exists so the [Homebrew tap](https://github.com/imperium42/homebrew-tap)
-> has a public, versioned, checksummable URL to install from.
+> This repository holds **release artifacts only**. The source code lives at
+> [Imperium42/echophrase](https://github.com/Imperium42/echophrase). Signed builds are published as
+> [GitHub Releases](../../releases), tagged `v<version>` to match the app, so the
+> [Homebrew tap](https://github.com/imperium42/homebrew-tap) and winget have a public, versioned,
+> checksummable URL to install from.
 
 ## 🍺 Install (macOS, Apple Silicon)
 
@@ -40,47 +41,36 @@ Prefer a manual install? Grab the `.dmg` from the
 
 ## 🪟 Install (Windows)
 
-Download the signed installer (`Echophrase_<version>_x64-setup.exe`) from the
-[latest release](../../releases/latest). GPU acceleration works out of the box
-via DirectML; an optional CUDA plugin for NVIDIA GPUs is available in-app.
-
 ```powershell
 winget install Imperium42.Echophrase
 ```
 
-## 🐧 Install (Linux, Alpha)
+Or download the signed installer (`Echophrase_<version>_x64-setup.exe`) from the
+[latest release](../../releases/latest). GPU acceleration works out of the box
+via DirectML, which is bundled with the app. No CUDA needed.
 
-Grab the [AppImage](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/appimage-x86_64)
-(x86_64, NVIDIA CUDA required), then `chmod +x` and run.
+## 🐧 Linux
 
-On Debian/Ubuntu you can install the
-[`.deb` package](https://cdn.crabnebula.app/download/imperium42/echophrase/latest/platform/debian-x86_64)
-instead:
-
-```bash
-sudo dpkg -i echophrase.deb
-```
-
-Linux support is **Alpha** — see [echophrase.com/download](https://echophrase.com/download)
-for requirements and known limitations.
+There are no official Linux downloads. Linux is community-supported and CPU-only:
+[build from source](https://github.com/Imperium42/echophrase#build-from-source).
 
 ## ✨ Why Echophrase?
 
 | | |
 |---|---|
-| 🔒 **Unlimited Offline Transcriptions** | Your voice is processed on-device — recordings are never uploaded (models are a one-time download on first run). Optional online features (account, cloud sync, anonymous telemetry) can be turned off |
-| ⚡ **GPU-accelerated** | Native DirectML on Windows, Metal on macOS — nothing extra to install |
-| 🌍 **Multilingual** | Pick the model that fits: Whisper, Parakeet, or Qwen3-ASR — from fast English-first dictation to strong Chinese & international accuracy |
-| ✍️ **Grammar cleanup** | An optional post-transcription transform model polishes grammar and punctuation, so your dictation reads the way you meant it |
-| 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey |
-| 🪶 **Featherweight** | Native Tauri + Rust — not an Electron memory hog |
+| 🔒 **Private by design** | Audio is processed on-device and never uploaded. No account, no cloud sync, no telemetry. The app only contacts huggingface.co (model downloads) and cdn.crabnebula.app (update checks). |
+| ⚡ **GPU-accelerated** | DirectML on Windows (bundled), CoreML/Metal on macOS. Nothing extra to install. |
+| 🌍 **Multilingual** | Parakeet-TDT for European languages, Qwen3-ASR for Chinese and 50+ more, Parakeet Lite for light English dictation. |
+| ✍️ **Grammar cleanup** | An optional on-device T5 pass polishes grammar and punctuation. |
+| 🎙️ **Push-to-talk** | Dictate into any text field with a hotkey. |
+| 🆓 **Free and open source** | MPL-2.0. [Source on GitHub](https://github.com/Imperium42/echophrase). |
 
 ## 🔗 Links
 
 - **Website & downloads:** [echophrase.com](https://echophrase.com)
 - **Docs:** [docs.echophrase.com](https://docs.echophrase.com)
-- **Community:** [Discord](https://discord.com/invite/XVGXRzq)
-- **Source:** private repository — see [echophrase.com](https://echophrase.com) for product info
+- **Source (MPL-2.0):** [Imperium42/echophrase](https://github.com/Imperium42/echophrase)
+- **Community:** [Discord](https://discord.com/invite/Er6NUcx)
 
 ---
 
